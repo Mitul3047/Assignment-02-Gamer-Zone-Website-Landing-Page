@@ -1,8 +1,24 @@
 @media screen and (max-width:575px) {
-    .nav-container, .nav-menu,.banner-container, .play-instant{
+    .nav-container, .nav-menu,.banner-container, .play-instant, .play-container{
         flex-direction: column;
     }
     .banner-contetnt-left{
         padding-bottom: 20px;
+        background-image: none;
+    }
+
+    .play-img {
+        margin-left: 100px;
+    }
+    .onlineimg img{
+        width: 40%;
+    }
+    .onlineimg {
+        bottom: 140px;
+        right: 50px;
+    }
+
+    .game-category-container{
+        grid-template-columns: repeat(3, 1fr);
     }
 }
