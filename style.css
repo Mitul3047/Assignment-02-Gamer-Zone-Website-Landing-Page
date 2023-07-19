@@ -1,9 +1,8 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
 
 
-body{
+
+body {
     font-family: 'Work Sans', sans-serif;
     /* background-color: red; */
 }
@@ -158,6 +157,7 @@ body{
     justify-content: space-around;
     align-items: center;
     gap: 24px;
+    transform: scale(0.7);
 
 }
 
@@ -393,6 +393,6 @@ footer {
     font-weight: 500;
 }
 
-.fotter-button :hover{
-  cursor: pointer;
+.fotter-button :hover {
+    cursor: pointer;
 }

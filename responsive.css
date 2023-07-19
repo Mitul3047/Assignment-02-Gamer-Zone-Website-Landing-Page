@@ -1,12 +1,18 @@
 @media screen and (max-width:575px) {
-    
-    
-    
-    
-    .nav-container, .nav-menu,.banner-container, .play-instant, .play-container ,.online-game-div{
+
+
+
+
+    .nav-container,
+    .nav-menu,
+    .banner-container,
+    .play-instant,
+    .play-container,
+    .online-game-div {
         flex-direction: column;
     }
-    .banner-contetnt-left{
+
+    .banner-contetnt-left {
         /* padding-bottom: 20px; */
         background-image: none;
     }
@@ -14,43 +20,50 @@
     .play-img {
         margin-left: 100px;
     }
-    .onlineimg img{
+
+    .onlineimg img {
         width: 40%;
     }
+
     .onlineimg {
         bottom: 140px;
         right: 50px;
     }
 
-    .game-category-container{
+    .game-category-container {
         grid-template-columns: repeat(3, 1fr);
         width: 90%;
 
     }
-    .img2{
+
+    .img2 {
         margin-top: 80px;
     }
-    .play-container{
+
+    .play-container {
         margin-top: 160px;
     }
 
-    .list{
+    .list {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 20px;
     }
-    .terms{
+
+    .terms {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
 
     }
-    .online-img{
+
+    .online-img {
         margin-left: 100px;
     }
+
     /* .category{
         width: 80%;
     } */
-    
+
 }
 
 
@@ -58,10 +71,17 @@
 
 
 @media screen and (min-width:575px) and (max-width:992px) {
-    .nav-container, .nav-menu,.banner-container, .play-instant, .play-container ,.online-game-div{
+
+    .nav-container,
+    .nav-menu,
+    .banner-container,
+    .play-instant,
+    .play-container,
+    .online-game-div {
         flex-direction: column;
     }
-    .banner-contetnt-left{
+
+    .banner-contetnt-left {
         padding-bottom: 20px;
         background-image: none;
     }
@@ -69,25 +89,30 @@
     .play-img {
         margin-left: 100px;
     }
-    .onlineimg img{
+
+    .onlineimg img {
         width: 40%;
     }
+
     .onlineimg {
         bottom: 140px;
         right: 50px;
     }
 
-    .game-category-container{
+    .game-category-container {
         grid-template-columns: repeat(3, 1fr);
-    
+
     }
-    .img2{
+
+    .img2 {
         margin-top: 80px;
     }
-    .play-container{
+
+    .play-container {
         margin-top: 160px;
     }
-    .online-img{
+
+    .online-img {
         margin-left: 100px;
     }
 }
