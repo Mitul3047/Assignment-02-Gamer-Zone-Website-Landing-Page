@@ -1,9 +1,13 @@
 @media screen and (max-width:575px) {
+    
+    
+    
+    
     .nav-container, .nav-menu,.banner-container, .play-instant, .play-container ,.online-game-div{
         flex-direction: column;
     }
     .banner-contetnt-left{
-        padding-bottom: 20px;
+        /* padding-bottom: 20px; */
         background-image: none;
     }
 
@@ -20,6 +24,8 @@
 
     .game-category-container{
         grid-template-columns: repeat(3, 1fr);
+        width: 90%;
+
     }
     .img2{
         margin-top: 80px;
@@ -41,6 +47,10 @@
     .online-img{
         margin-left: 100px;
     }
+    /* .category{
+        width: 80%;
+    } */
+    
 }
 
 
@@ -69,6 +79,7 @@
 
     .game-category-container{
         grid-template-columns: repeat(3, 1fr);
+    
     }
     .img2{
         margin-top: 80px;
