@@ -103,6 +103,7 @@ body{
     background-image: url("./images/Group\ 14.png");
     /* padding: 140px 290px 140px 240px; */
     width: 80%;
+    background-repeat: no-repeat;
     /* transform: scale(0.7); */
     display: flex;
     justify-content: center;
