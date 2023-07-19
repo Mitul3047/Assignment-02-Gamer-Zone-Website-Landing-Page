@@ -77,6 +77,14 @@
     .footer-container {
         transform: scale(0.7);
     }
+    .btn-1{
+        margin-bottom: 10px;
+    }
+
+    /* .banner-img img{
+        width: 100%;
+        margin: auto;
+    } */
 
 }
 
@@ -137,6 +145,10 @@
 
     .footer-container {
         transform: scale(0.7);
+    }
+
+    .btn-1{
+        margin: 15px;
     }
 
 }
