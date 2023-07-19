@@ -5,6 +5,7 @@
 
 body{
     font-family: 'Work Sans', sans-serif;
+    /* background-color: red; */
 }
 
 
@@ -84,6 +85,7 @@ body{
     padding: 20px 40px;
     border: 0;
     color: #ffff;
+    cursor: pointer;
 }
 
 .btn-2 {
@@ -118,15 +120,11 @@ body{
     margin: auto;
 }
 
-/* online gaems */
 
 
 .Online-games {
     margin-top: 100px;
-    /* margin-bottom: 120px; */
-    /* padding-right: 240px;
-    padding-left: 240px;
-     */
+    margin-bottom: 120px;
 }
 
 .Online-games-title {
@@ -146,7 +144,7 @@ body{
     font-weight: 700;
 }
 
-.online-p {
+.online-description {
     color: #534C64;
     text-align: center;
     font-size: 18px;
@@ -154,22 +152,82 @@ body{
     margin-bottom: 48px;
 }
 
-.online-game-div {
+.online-game-container {
     display: flex;
     justify-content: space-around;
+
+}
+
+.card-p {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.description2 {
+    width: 244px;
+    color: #534C64;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.play-icon {
+    width: 48px;
+    height: 48px;
+
+
+}
+
+.hoverimg {
+    position: relative;
+
+}
+
+.hover-img {}
+
+.img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
 
 }
 
-.online-game-div img {
-    width: 200px;
-    height: auto;
+.img-overlay>* {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+
 }
 
-.online-game-div p {
-    width: 200px;
-    height: auto;
+.img-overlay:hover {
+    cursor: pointer;
+    opacity: 1;
 }
+
+.img-overlay:hover>* {
+    transform: translateY(0);
+}
+
+.img-description {
+    font-size: 20px;
+    font-weight: 600;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
 
 
 /* play instant */
@@ -221,12 +279,12 @@ body{
     /* width: 100%; */
 }
 
-.onlineimg img {
+.onlineimg {
     position: relative;
     bottom: 110px;
     right: 60px;
     border-radius: 8px;
-    width: 40%;
+    /* width: 100%; */
 
 }
 
@@ -236,7 +294,7 @@ body{
 
 .img2 {
     width: 75%;
-    margin-top: 225px;
+    margin-top: 180px;
 }
 
 /* category */
@@ -330,4 +388,8 @@ footer {
     text-align: center;
     font-size: 16px;
     font-weight: 500;
+}
+
+.fotter-button :hover{
+  cursor: pointer;
 }
