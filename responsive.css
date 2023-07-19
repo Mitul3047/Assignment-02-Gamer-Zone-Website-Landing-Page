@@ -1,5 +1,8 @@
 @media screen and (max-width:575px) {
-    .nav-container, .nav-menu{
+    .nav-container, .nav-menu,.banner-container, .play-instant{
         flex-direction: column;
+    }
+    .banner-contetnt-left{
+        padding-bottom: 20px;
     }
 }
