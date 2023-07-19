@@ -1,5 +1,5 @@
 @media screen and (max-width:575px) {
-    .nav-container, .nav-menu,.banner-container, .play-instant, .play-container{
+    .nav-container, .nav-menu,.banner-container, .play-instant, .play-container ,.online-game-div{
         flex-direction: column;
     }
     .banner-contetnt-left{
@@ -20,5 +20,50 @@
 
     .game-category-container{
         grid-template-columns: repeat(3, 1fr);
+    }
+    .img2{
+        margin-top: 80px;
+    }
+    .play-container{
+        margin-top: 160px;
+    }
+
+    .list{
+        gap: 20px;
+    }
+}
+
+
+
+
+
+@media screen and (min-width:575px) and (max-width:992px) {
+    .nav-container, .nav-menu,.banner-container, .play-instant, .play-container ,.online-game-div{
+        flex-direction: column;
+    }
+    .banner-contetnt-left{
+        padding-bottom: 20px;
+        background-image: none;
+    }
+
+    .play-img {
+        margin-left: 100px;
+    }
+    .onlineimg img{
+        width: 40%;
+    }
+    .onlineimg {
+        bottom: 140px;
+        right: 50px;
+    }
+
+    .game-category-container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .img2{
+        margin-top: 80px;
+    }
+    .play-container{
+        margin-top: 160px;
     }
 }
