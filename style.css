@@ -249,11 +249,21 @@ body {
 
 }
 
+.play-title {
+    color: #0B0223;
+    font-size: 48px;
+    margin-bottom: 24px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: right;
+}
+
 .new-color {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-align: center;
 }
 
 .play-container-content {
@@ -264,14 +274,7 @@ body {
     flex-direction: column;
 }
 
-.play-title {
-    color: #0B0223;
-    font-size: 48px;
-    margin-bottom: 24px;
-    font-weight: 700;
-    line-height: 60px;
-    text-align: right;
-}
+ 
 
 
 .online-p2 {
