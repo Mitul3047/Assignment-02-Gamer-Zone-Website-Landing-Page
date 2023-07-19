@@ -29,7 +29,17 @@
     }
 
     .list{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
         gap: 20px;
+    }
+    .terms{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    .online-img{
+        margin-left: 100px;
     }
 }
 
@@ -65,5 +75,8 @@
     }
     .play-container{
         margin-top: 160px;
+    }
+    .online-img{
+        margin-left: 100px;
     }
 }
