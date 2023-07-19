@@ -35,6 +35,8 @@
     .game-category-container {
         grid-template-columns: repeat(3, 1fr);
         width: 90%;
+        padding: 120px 0px;
+        transform: scale(0.7);
 
     }
 
@@ -105,6 +107,7 @@
 
     .game-category-container {
         grid-template-columns: repeat(3, 1fr);
+        padding: 120px 0px;
 
     }
 
