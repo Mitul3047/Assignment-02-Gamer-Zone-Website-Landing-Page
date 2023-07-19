@@ -8,8 +8,10 @@
     .banner-container,
     .play-instant,
     .play-container,
-    .online-game-div {
+    .online-game-container {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .banner-contetnt-left {
@@ -64,6 +66,8 @@
         width: 80%;
     } */
 
+   
+
 }
 
 
@@ -77,7 +81,7 @@
     .banner-container,
     .play-instant,
     .play-container,
-    .online-game-div {
+    .online-game-container {
         flex-direction: column;
     }
 
