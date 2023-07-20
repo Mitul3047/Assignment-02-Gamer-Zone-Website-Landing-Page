@@ -44,12 +44,12 @@
 
     /* .onlineimg img {
         width: 40%;
-    }
+    } */
 
     .onlineimg {
-        bottom: 100px;
-        right: 50px;
-    } */
+        bottom: 60px
+    
+    } 
 
     .game-category-container {
         grid-template-columns: repeat(3, 1fr);
@@ -86,7 +86,7 @@
         margin-left: 100px;
     }
     .play-container{
-        width: 80%;
+        width: 100%;
         margin: auto;
     }
     footer {
