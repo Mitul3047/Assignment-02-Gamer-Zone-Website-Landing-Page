@@ -7,7 +7,6 @@
 
     .nav-container,
     .nav-menu,
-    .banner-container,
     .play-instant,
     .play-container,
     .online-game-container {
@@ -15,37 +14,57 @@
         justify-content: center;
         align-items: center;
     }
-
-    .banner-contetnt-left {
-        /* padding-bottom: 20px; */
-        background-image: none;
+    .banner-container{
+        flex-direction: column;
+        transform: scale(0.9);
     }
-
+    .banner-img img {
+       width: 90%;
+       margin: 0px auto;
+    }
+     .banner-container{
+        background-image: none;
+     }
+     .banner-contetnt-left{
+        background-image: url("./images/Group\ 14.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+     }
+    .Online-games{
+        margin-top: 50px;
+    }
+     .online-game-container{
+        transform: scale(0.9);
+     }
     .play-img {
         margin-left: 100px;
     }
 
-    .onlineimg img {
+    /* .onlineimg img {
         width: 40%;
     }
 
     .onlineimg {
-        bottom: 140px;
+        bottom: 100px;
         right: 50px;
-    }
+    } */
 
     .game-category-container {
         grid-template-columns: repeat(3, 1fr);
-        width: 90%;
+        /* width: 90%; */
         padding: 120px 0px;
-        transform: scale(0.6);
-        margin: auto;
+        transform: scale(0.7);
+        /* margin: auto; */
 
     }
 
+   
+/* 
     .img2 {
         margin-top: 80px;
-    }
+    } */
 
     .play-container {
         margin-top: 160px;
@@ -66,10 +85,10 @@
     .online-img {
         margin-left: 100px;
     }
-
-    /* .category{
+    .play-container{
         width: 80%;
-    } */
+        margin: auto;
+    }
     footer {
         padding: 0;
     }
@@ -81,10 +100,6 @@
         margin-bottom: 10px;
     }
 
-    /* .banner-img img{
-        width: 100%;
-        margin: auto;
-    } */
 
 }
 
@@ -94,61 +109,109 @@
 
 @media screen and (min-width:575px) and (max-width:992px) {
 
+
+
+
     .nav-container,
     .nav-menu,
-    .banner-container,
     .play-instant,
     .play-container,
     .online-game-container {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
-
-    .banner-contetnt-left {
-        padding-bottom: 20px;
+    .banner-container{
+        flex-direction: column;
+        transform: scale(0.9);
+    }
+    .banner-img img {
+       width: 90%;
+       margin: 0px auto;
+    }
+     .banner-container{
         background-image: none;
+     }
+     .banner-contetnt-left{
+        background-image: url("./images/Group\ 14.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+     }
+    .Online-games{
+        margin-top: 50px;
     }
-
+     .online-game-container{
+        transform: scale(1);
+     }
     .play-img {
         margin-left: 100px;
     }
+    .play-title{
+        text-align: center;
+    }
 
-    .onlineimg img {
-        width: 40%;
+    .play-container{
+        width: 65%;
+        margin: 50px auto;
+    }
+    /* . img {
+        width: 20%;
     }
 
     .onlineimg {
-        bottom: 140px;
+        bottom: 100px;
         right: 50px;
-    }
+    } */
 
     .game-category-container {
         grid-template-columns: repeat(3, 1fr);
-        width: 90%;
-        padding: 200px 0px;
-        transform: scale(0.6);
-        margin: auto;
+        /* width: 90%; */
+        padding: 120px 0px;
+        transform: scale(0.7);
+        /* margin: auto; */
 
     }
 
-    .img2 {
+    /* .img2 {
         margin-top: 80px;
-    }
+        width: 55%;
+    } */
 
     .play-container {
         margin-top: 160px;
     }
 
+    .list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    .terms {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
     .online-img {
         margin-left: 100px;
     }
-
+    
+    footer {
+        padding: 0;
+    }
 
     .footer-container {
         transform: scale(0.7);
     }
-
     .btn-1{
-        margin: 15px;
+        margin-bottom: 10px;
     }
+    .play-title{
+        text-align: center;
+    }
+
 
 }

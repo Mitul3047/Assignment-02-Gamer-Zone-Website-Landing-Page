@@ -92,6 +92,9 @@ body {
 }
 
 .banner-container {
+    background-image: url("./images/Group\ 14.png");
+    background-repeat: no-repeat;
+    background-position: left;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -99,10 +102,10 @@ body {
 }
 
 .banner-contetnt-left {
-    background-image: url("./images/Group\ 14.png");
+    
     /* padding: 140px 290px 140px 240px; */
-    width: 80%;
-    background-repeat: no-repeat;
+    /* width: 80%; */
+    
     /* transform: scale(0.7); */
     display: flex;
     justify-content: center;
@@ -112,7 +115,7 @@ body {
 }
 
 .banner-img img {
-    width: 100%;
+    /* width: 100%; */
     /* transform: scale(0.7); */
 }
 
@@ -287,10 +290,13 @@ body {
 
 .onlineimg {
     position: relative;
-    bottom: 110px;
+    /* bottom: 110px;
     right: 60px;
-    border-radius: 8px;
+    border-radius: 8px; */
     /* width: 100%; */
+    bottom: 75px;
+    right: 42px;
+    width: 65%;
 
 }
 
